@@ -1,0 +1,25 @@
+.checkbox {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+.checkbox-unchecked {
+  border: 1px solid #eee;
+}
+
+.checkbox-checked {
+  background: center center #4a54ff;
+  background-image: linear-gradient(315deg, #4c57eb 0, #1a81db 100%);
+  background-size: cover;
+}
+
+.checkbox-inner {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/icons/check.png);
+  background-size: 50%;
+}
